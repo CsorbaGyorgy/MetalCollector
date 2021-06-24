@@ -1,0 +1,55 @@
+<div *ngIf="band"style="text-align: center;">
+  <h2>{{band.name | uppercase}} Details</h2>
+  <div id="id"><span>id:</span>{{band.id}}</div>
+
+  <div>
+    <label for="band-name">Band name: </label>
+    <input id="band-name" [(ngModel)]="band.name" placeholder="name">
+  </div>
+  <div id="age"><span>since:</span>{{band.age}}</div>
+  <div id="members"><span>members: </span>{{band.members}}</div>
+
+    <div style="text-align: center;">
+        <button id="listen" (click)="listen()">Another
+          <a href="https://www.youtube.com/" alt="band-name" target="_blank">stuff?
+          </a>
+        </button>
+    </div>
+</div>
+<br>
+
+<!-- Cards -->
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" (click)="save()">
+          <img src="../assets/death.svg" class="card-img-top" alt="death" width="200" height="150" />
+          <div class="card-body">
+              <p class="card-text" style="font-family: 'Permanent Marker', cursive;font-size: 20px; text-align: center;">SAVE
+                </p>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card" (click)="goBack()">
+          <img src="../assets/death.svg" class="card-img-top" alt="death" width="200" height="150" />
+          <div class="card-body">
+              <p class="card-text" style="font-family: 'Permanent Marker', cursive;font-size: 20px; text-align: center;">GO BACK
+                </p>
+          </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card"(click)="delete(band.id)">
+          <img src="../assets/death.svg" class="card-img-top" alt="death"width="200" height="150" />
+          <div class="card-body">
+              <p class="card-text" style="font-family: 'Permanent Marker', cursive;font-size: 20px; text-align: center;">DELETE
+                </p>
+          </div>
+      </div>
+    </div>
+
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">

@@ -1,0 +1,56 @@
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #ac0404;
+    color: #3d3d3d;
+    border-radius: 6px;
+    font-family: 'Permanent Marker', cursive;font-size: 20px;
+}
+
+nav h1 {
+    font-family: 'Permanent Marker', cursive;font-size: 35px;
+    color: whitesmoke;
+}
+
+nav #dc {
+    margin-right: 0%; 
+}
+
+nav #out:hover {
+    background-color: black;
+    margin-right: 0%;
+}
+  
+nav a:hover {
+    color: whitesmoke;
+    background-color: firebrick
+
+}
+
+nav a.active {
+    background-color: black;
+}
+
+/* Carousel */
+
+#carousel {
+    /* border-style:groove;
+    border-radius: 10px;
+    max-height: 800px; */
+
+}
+  
+/*footer*/
+footer {
+    background-color: firebrick;
+    color: black;
+    font-family: 'Permanent Marker', cursive;font-size: 20px;
+}
+
+footer ion-icon {
+    padding: 20px;
+    font-size: 200%;
+    color: firebrick;    
+}
+
