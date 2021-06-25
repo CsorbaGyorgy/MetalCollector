@@ -36,8 +36,6 @@ nav a.active {
 #carouselExampleControls {
     border-style:groove;
     border-radius: 10px;
-    max-height: 800px;
-
 }
   
 /*footer*/
@@ -46,5 +44,6 @@ footer {
     color: black;
     font-family: 'Permanent Marker', cursive;font-size: 20px;
 }
+
 
 
