@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
 import { LayoutComponent } from './layout.component';
 import { BandDetailComponent } from './band-detail.component';
 import { AdminpageComponent } from './adminpage.component';

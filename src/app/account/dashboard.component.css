@@ -4,14 +4,14 @@ h2 {
   text-align: center;
   font-family: 'Permanent Marker', cursive;    font-size: 35px;}
 
-  
-.bands-menu {
+ 
+/* .bands-menu {
   padding: 0;
   margin: auto;
-  max-width: 1000px;
+  max-width: 1000px; */
   
   /* flexbox */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -19,8 +19,8 @@ h2 {
   align-items: flex-start;
   font-family: 'Bebas Neue', cursive;
 }
-  
-a {
+   */
+/* a {
   text-decoration: none;
   background-color:black;
   border-radius: 2px;
@@ -34,13 +34,13 @@ a {
   min-width: 70px;
   margin: .5rem auto;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', cursive; */
 
   /* flexbox */
-  order: 0;
+  /* order: 0;
   flex: 0 1 auto;
   align-self: auto;
-}
+} */
   
 @media (min-width: 600px) {
   a {
@@ -55,4 +55,4 @@ a:hover {
 
 #rockon {
   background-color: #fff;
-}
+} 

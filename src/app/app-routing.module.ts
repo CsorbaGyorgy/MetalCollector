@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './account/dashboard.component';
-
 import { HomeComponent } from './home';
 import { BandDetailComponent } from './users/band-detail.component';
 import { AuthGuard } from './_helpers';

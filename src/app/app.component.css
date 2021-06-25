@@ -33,11 +33,10 @@ nav a.active {
 }
 
 /* Carousel */
-
-#carousel {
-    /* border-style:groove;
+#carouselExampleControls {
+    border-style:groove;
     border-radius: 10px;
-    max-height: 800px; */
+    max-height: 800px;
 
 }
   
@@ -48,9 +47,4 @@ footer {
     font-family: 'Permanent Marker', cursive;font-size: 20px;
 }
 
-footer ion-icon {
-    padding: 20px;
-    font-size: 200%;
-    color: firebrick;    
-}
 

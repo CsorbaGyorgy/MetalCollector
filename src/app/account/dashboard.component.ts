@@ -3,7 +3,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Band } from '../_models';
 import { BandService } from '../_services'
 
-
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',

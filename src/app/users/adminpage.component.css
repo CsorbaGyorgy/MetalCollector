@@ -13,7 +13,6 @@ label {
   padding: 0;
   margin: auto;
   max-width: 1000px;
-  
   /* flexbox */
   display: flex;
   flex-direction: row;
@@ -44,12 +43,8 @@ a.HB {
   flex: 0 1 auto;
   align-self: auto;
 }
-a .card {
-  background-color: whitesmoke;
-}
 
 
-  
 @media (min-width: 600px) {
   a {
     width: 18%;
@@ -61,25 +56,23 @@ a:hover {
   background-color:orangered;
 }
 
+/* cards */
 .card-body {
   font-family: 'Permanent Marker', cursive;font-size: 20px;
 }
 
-#rockon {
-  background-color: #fff;
-}
-
-/* cards */
-
 .card {
   box-shadow: 0 16px 38px -12px rgba(209, 199, 199, 0.56), 0 4px 25px 0px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.2);
   transition: 0.8s;
-
 }
 
 .card:hover {
   box-shadow: none;
   cursor: pointer;
+}
+
+#rockon {
+  background-color: #fff;
 }
 
 
