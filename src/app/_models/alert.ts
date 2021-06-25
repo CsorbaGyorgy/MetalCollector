@@ -10,7 +10,6 @@ export class Alert {
         Object.assign(this, init);
     }
 }
-
 export enum AlertType {
     Success,
     Error,
