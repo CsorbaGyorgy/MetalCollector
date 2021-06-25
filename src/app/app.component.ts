@@ -4,7 +4,6 @@ import { AccountService } from './_services';
 import { User } from './_models';
 // import { NgbCarouselConfig,  } from '@ng-bootstrap/ng-bootstrap';
 
-
 @Component({ 
     selector: 'app', 
     templateUrl: 'app.component.html',  
